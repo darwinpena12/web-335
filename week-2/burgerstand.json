@@ -1,0 +1,19 @@
+{
+    "customer": {
+        "_id": "C1",
+        "firstName": "Darwin",
+        "lastName": "Pena Cabrera",
+        "burgers": [
+            {
+                "_id": "B1",
+                "burgerName": "Chesse Burger",
+                "price": 9.99
+            },
+            {
+                "_id": "B2",
+                "burgerName": "Special Burger",
+                "price": 12.99
+            }
+        ]
+    }
+}
