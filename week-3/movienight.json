@@ -1,0 +1,74 @@
+{
+  "viewers": [
+    {
+      "_id": 1,
+      "firstName": "Darwin",
+      "lastName": "Pena"
+    },
+    {
+      "_id": 2,
+      "firstName": "Olivia",
+      "lastName": "Cabrera"
+    },
+    {
+      "_id": 3,
+      "firstName": "Ivette",
+      "lastName": "Flores"
+    }
+  ],
+  "movies": [
+    {
+      "_id": 101,
+      "movieName": "Batman Begins",
+      "genre": "action"
+    },
+    {
+      "_id": 102,
+      "movieName": "The Dark Knight",
+      "genre": "action"
+    },
+    {
+      "_id": 103,
+      "movieName": "The Dark Knight Rises",
+      "genre": "action"
+    }
+  ],
+  "ratings": [
+    {
+      "_id": 1001,
+      "ratingScore": 10,
+      "viewerId": 1,
+      "movieId": 101 
+    },
+    {
+      "_id": 1002,
+      "ratingScore": 10, 
+      "viewerId": 2,
+      "movieId": 101
+    },
+    {
+      "_id": 1003,
+      "ratingScore": 10,
+      "viewerId": 1,
+      "movieId": 102
+    },
+    {
+      "_id": 1004,
+      "ratingScore": 10,
+      "viewerId": 3,
+      "movieId": 102
+    },
+    {
+      "_id": 1005,
+      "ratingScore": 10,
+      "viewerId": 1,
+      "movieId": 103
+    },
+    {
+      "_id": 1006,
+      "ratingScore": 10,
+      "viewerId": 3,
+      "movieId": 103
+    }
+  ]
+}
