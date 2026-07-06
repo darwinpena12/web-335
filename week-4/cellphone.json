@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "_id": 1,
+      "firstName": "Darwin",
+      "lastName": "Pena Cabrera",
+      "devices": [
+        {
+          "_id": 101,
+          "deviceName": "iPhone 15",
+          "deviceType": "Smartphone",
+          "charger_id": 1001
+        },
+        {
+          "_id": 102,
+          "deviceName": "Alienware laptop",
+          "deviceType": "Laptop",
+          "charger_id": 1002
+        }
+      ]
+    },
+    {
+      "_id": 2,
+      "firstName": "Olivia",
+      "lastName": "Cabrera",
+      "devices": [
+        {
+          "_id": 103,
+          "deviceName": "iPad air",
+          "deviceType": "Tablet",
+          "charger_id": 1001
+        }
+      ]
+    },
+    {
+      "_id": 3,
+      "firstName": "Ivette",
+      "lastName": "Flores",
+      "devices": [
+        {
+          "_id": 104,
+          "deviceName": "Samsung Galaxy S25",
+          "deviceType": "Smartphone",
+          "charger_id": 1003
+        }
+      ]
+    }
+  ],
+  "chargers": [
+    {
+      "_id": 1001,
+      "chargerType": "USB-C",
+      "voltage": "20W"
+    },
+    {
+      "_id": 1002,
+      "chargerType": "Dell Alienware AC Adapter",
+      "voltage": "240W"
+    },
+    {
+      "_id": 1003,
+      "chargerType": "USB-C Fast Charger",
+      "voltage": "25W"
+    }
+  ]
+}
